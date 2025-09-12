@@ -75,7 +75,39 @@ main {
 
 .time-tracking-dashboard {
   display: grid;
+  grid-template-areas:
+    "intro-cell"
+    "work-cell"
+    "play-cell"
+    "study-cell"
+    "exercise-cell"
+    "social-cell"
+    "self-care-cell";
   gap: 1.5rem;
+}
+
+.work-cell {
+  grid-area: work-cell;
+}
+
+.play-cell {
+  grid-area: play-cell;
+}
+
+.study-cell {
+  grid-area: study-cell;
+}
+
+.exercise-cell {
+  grid-area: exercise-cell;
+}
+
+.social-cell {
+  grid-area: social-cell;
+}
+
+.self-care-cell {
+  grid-area: self-care-cell;
 }
 
 /* ## INTRO SECTION ## */
@@ -83,6 +115,7 @@ main {
 .intro-cell {
   background-color: var(--navy-900);
   border-radius: 0.8rem;
+  grid-area: intro-cell;
 }
 
 .intro__header {
@@ -91,18 +124,18 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
-  padding-block: 1.5rem;
+  gap: 1rem;
+  padding-block: 2.5rem;
 }
 
 .profile-pic-container {
-  width: 80px;
+  width: 60px;
   border: 3px solid #fff;
   border-radius: 200px;
 }
 
 .intro__header .text h1 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: var(--fw-300);
   color: #f9f9ff;
   margin-top: 0.3rem;
