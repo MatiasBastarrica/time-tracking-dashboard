@@ -55,3 +55,12 @@ button {
   border: none;
   font: inherit;
 }
+
+/* ### GENERAL SYTLING ### */
+
+body {
+  background-color: var(--navy-950);
+  font-family: var(--ff-rubik);
+  font-weight: var(--fw-300);
+  color: var(--navy-200);
+}
