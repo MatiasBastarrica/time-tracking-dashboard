@@ -21,4 +21,10 @@
   --navy-900: hsl(235, 46%, 20%);
   --pruple-500: hsl(235, 45%, 61%);
   --navy-200: hsl(236, 100%, 87%);
+
+  /* # TYPOGRAPHY # */
+  --ff-rubik: "Rubik", sans-serif;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
 }
