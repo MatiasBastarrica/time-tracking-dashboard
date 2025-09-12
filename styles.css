@@ -54,6 +54,7 @@ button {
   background: unset;
   border: none;
   font: inherit;
+  color: inherit;
 }
 
 /* ### GENERAL SYTLING ### */
@@ -63,4 +64,54 @@ body {
   font-family: var(--ff-rubik);
   font-weight: var(--fw-300);
   color: var(--navy-200);
+  font-size: 1.125rem;
+}
+
+main {
+  padding: 5rem 1rem;
+}
+
+/* ### TIME TRACKING DASHBOARD ### */
+
+/* ## INTRO SECTION ## */
+
+.intro-cell {
+  background-color: var(--navy-900);
+  border-radius: 0.8rem;
+}
+
+.intro__header {
+  background-color: var(--pruple-600);
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.profile-pic-container {
+  width: 80px;
+  border: 3px solid #fff;
+  border-radius: 200px;
+}
+
+.intro__header .text h1 {
+  font-size: 1.4rem;
+  font-weight: var(--fw-300);
+  color: #f9f9ff;
+  margin-top: 0.3rem;
+}
+
+.intro__content {
+  padding-block: 1.5rem;
+}
+
+.intro__content ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro__content button {
+  font-weight: var(--fw-400);
 }
