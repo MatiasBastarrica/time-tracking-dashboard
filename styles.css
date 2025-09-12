@@ -28,3 +28,30 @@
   --fw-400: 400;
   --fw-500: 500;
 }
+
+/* ### CSS RESET ### */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+svg,
+picture {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: unset;
+  border: none;
+  font: inherit;
+}
