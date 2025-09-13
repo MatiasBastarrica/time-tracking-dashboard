@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My Solution](https://your-solution-url.com)
+- Solution URL: [My Solution](https://www.frontendmentor.io/solutions/time-tracking-dashboard-PdJReBtTGM)
 - Live Site URL: [Live](https://matiasbastarrica.github.io/time-tracking-dashboard/)
 
 ## My process
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-I learn to retrive data from a JSON file and use it to display certain stats on the page.
+I learn to retrieve data from a JSON file and use it to display certain stats on the page.
 
 ### Continued development
 
