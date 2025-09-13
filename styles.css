@@ -160,6 +160,10 @@ main {
   color: #fff;
 }
 
+.intro__content button:nth-child(2) {
+  color: #fff;
+}
+
 .cell {
   border-radius: 0.8rem;
 }

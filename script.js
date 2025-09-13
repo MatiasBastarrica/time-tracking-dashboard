@@ -4,7 +4,7 @@ const timeframesBtns = document.querySelectorAll(".intro__content button");
 dashboardDataPromise
   .then((response) => response.json())
   .then((data) => {
-    let timeframeSelected = "";
+    let timeframeSelected = "weekly";
 
     timeframesBtns.forEach((timeframeBtn) => {
       timeframeBtn.addEventListener("click", () => {
