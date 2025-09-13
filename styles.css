@@ -239,3 +239,64 @@ main {
   font-weight: var(--fw-400);
   font-size: 0.975rem;
 }
+
+/* ### MEDIA QUERIES ### */
+
+@media (min-width: 50em) {
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+
+  .time-tracking-dashboard {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "intro-cell work-cell play-cell study-cell"
+      "intro-cell exercise-cell social-cell self-care-cell";
+    max-width: 1000px;
+  }
+
+  .intro-cell {
+    display: grid;
+  }
+
+  .intro__header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.8rem 2rem 4rem;
+  }
+
+  .intro__header .text h1 {
+    font-size: 2.1rem;
+  }
+
+  .intro__content {
+    padding-inline: 2rem;
+  }
+
+  .intro__content ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .intro__content ul {
+    gap: 1.2rem;
+  }
+
+  .profile-pic-container {
+    width: 80px;
+  }
+
+  .time-display-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
+  }
+
+  .time-display {
+    font-size: 3rem;
+  }
+}
